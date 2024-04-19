@@ -1,9 +1,14 @@
 import React from "react";
+import Landing from "./components/landing";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
-      <div>Hello World</div>
+      <div className="bg-blue-300">
+        <Navbar />
+      </div>
+      <Landing />
     </>
   );
 }
