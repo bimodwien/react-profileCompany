@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,24 +39,24 @@ const Navbar = () => {
               </button>
             </li>
             <li className="mr-8 border-b-2 pt-3 lg:pt-0">
-              <a className="text-white" href="#home">
+              <Link to={"/"} className="text-white">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="mr-8 border-b-2 pt-3 lg:pt-0">
-              <a className="text-white" href="#about">
-                About Us
-              </a>
+              <Link to={"/about"} className="text-white">
+                About
+              </Link>
             </li>
             <li className="mr-8 border-b-2 pt-3 lg:pt-0">
-              <a className="text-white" href="#services">
-                Services
-              </a>
+              <Link to={"/service"} className="text-white">
+                Service
+              </Link>
             </li>
             <li className="mr-8 border-b-2 pt-3 lg:pt-0">
-              <a className="text-white" href="#team">
+              <Link to={"/team"} className="text-white">
                 Teams
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

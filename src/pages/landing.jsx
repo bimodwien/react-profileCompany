@@ -12,16 +12,11 @@ const Landing = () => {
       <section>
         <div className="">
           <div className="relative flex justify-center items-center h-full w-full">
-            <img
-              src={ars1}
-              alt="arsitek gedung"
-              className="object-cover h-screen w-full"
-            />
+            <img src={ars1} alt="arsitek gedung" className="object-cover" />
             <div className="absolute font-semibold text-xl italic md:text-5xl lg:font-bold lg:text-8xl text-[#DEDEDE]">
               Harmony Interior
             </div>
           </div>
-
           <div className="text-base leading-4 px-4 pt-20 tracking-[1.5px] text-gray-500 uppercase lg:px-10">
             Harmony Interior
           </div>
@@ -64,7 +59,6 @@ const Landing = () => {
             />
           </div>
         </div>
-
         <div className="px-4 pt-12 lg:flex lg:flex-row lg:py-24 lg:gap-5 lg:items-center lg:justify-between lg:2:full pb-3">
           <div className="lg:w-2/4">
             <div className="uppercase text-gray-500 text-base w-auto leading-4 tracking-[1.5px] pb-5">
