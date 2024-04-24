@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul
             className={`lg:flex ${
               isOpen ? "block" : "hidden"
-            } mt-0 lg:mt-2 lg:w-1/2 lg:h-10 pl-2 lg:justify-end lg:items-center h-screen absolute top-0 bg-gray-800 right-0`}
+            } mt-0 lg:mt-2 lg:w-1/2 lg:h-10 pl-2 z-[1] lg:justify-end lg:items-center h-screen absolute top-0 bg-gray-800 right-0`}
           >
             <li className="flex flex-row-reverse p-0 m-0">
               <button
