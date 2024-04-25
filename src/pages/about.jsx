@@ -45,7 +45,7 @@ const About = () => {
             <div className="uppercase text-gray-500 text-base w-auto leading-4 tracking-[1.5px] pb-5">
               Our Journey
             </div>
-            <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top">
+            <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top text-[#DEDEDE]">
               Since our establishment in 2014, Harmony Interior has been
               determined to redefine the standards of interior design. What
               started as a simple idea has blossomed into a rapidly growing
@@ -66,7 +66,7 @@ const About = () => {
             <div className="uppercase text-gray-500 text-base w-auto leading-4 tracking-[1.5px] pb-5">
               company history
             </div>
-            <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top">
+            <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top text-[#DEDEDE]">
               Our journey began with a simple idea: Harmony Interior was
               established in 2005 by John Smith, a passionate interior designer
               with a vision to redefine how people experience their living
@@ -95,7 +95,7 @@ const About = () => {
           <div className="uppercase text-gray-500 text-base w-auto leading-4 tracking-[1.5px] pb-5">
             meet our team
           </div>
-          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top">
+          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top text-[#DEDEDE]">
             At Harmony Interior, we believe that our greatest asset is our team.
             Our team is comprised of passionate individuals who bring diverse
             talents and perspectives to the table. Get to know the faces behind
@@ -137,7 +137,7 @@ const About = () => {
           <div className="uppercase text-gray-500 text-base w-auto leading-4 tracking-[1.5px] pb-5">
             Our Culture
           </div>
-          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top">
+          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top text-[#DEDEDE]">
             At the heart of Harmony Interior lies a diverse and inclusive
             culture. We are driven by our core values, such as <b>Creativity</b>
             , <b>Collaboration</b>, <b>Integrity</b>, <b>Excellence</b>,{" "}
@@ -146,7 +146,7 @@ const About = () => {
             collaboration, we strive to create an environment where every team
             member feels empowered to thrive.
           </div>
-          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top">
+          <div className="font-medium text-[30px] leading-10 tracking-[-0.5px] pt-5 pb-10 text-left align-top text-[#DEDEDE]">
             Join us on our journey as we continue to push the boundaries of
             interior design and make a positive impact on the world around us.
           </div>
