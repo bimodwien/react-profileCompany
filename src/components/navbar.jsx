@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-800 p-4 relative lg:px-10">
+      <nav className="bg-gray-800 p-4 lg:px-10 fixed top-0 z-10 w-full">
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-white text-lg font-semibold">Harmony</h1>
@@ -26,9 +26,9 @@ const Navbar = () => {
             </button>
           </div>
           <ul
-            className={`lg:flex ${
+            className={`lg:flex lg:gap-8 lg:pr-10 ${
               isOpen ? "block" : "hidden"
-            } mt-0 lg:mt-2 lg:w-1/2 lg:h-10 pl-2 z-[1] lg:justify-end lg:items-center h-screen absolute top-0 bg-gray-800 right-0`}
+            } mt-0 lg:mt-2 lg:w-1/2 lg:h-10 z-[1] lg:justify-end lg:items-center fixed top-0 bg-gray-800 lg:bg-gray-800  w-full right-0`}
           >
             <li className="flex flex-row-reverse p-0 m-0">
               <button
@@ -38,22 +38,22 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faX} className="self-end justify-end" />
               </button>
             </li>
-            <li className="mr-8 border-b-2 pt-3 lg:pt-0">
+            <li className="border-b-2 pt-3 lg:pt-0">
               <Link to={"/"} className="text-white">
                 Home
               </Link>
             </li>
-            <li className="mr-8 border-b-2 pt-3 lg:pt-0">
+            <li className="border-b-2 pt-3 lg:pt-0">
               <Link to={"/about"} className="text-white">
                 About
               </Link>
             </li>
-            <li className="mr-8 border-b-2 pt-3 lg:pt-0">
+            <li className="border-b-2 pt-3 lg:pt-0">
               <Link to={"/service"} className="text-white">
                 Service
               </Link>
             </li>
-            <li className="mr-8 border-b-2 pt-3 lg:pt-0">
+            <li className="border-b-2 pt-3 lg:pt-0">
               <Link to={"/team"} className="text-white">
                 Teams
               </Link>

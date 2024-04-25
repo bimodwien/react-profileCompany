@@ -17,7 +17,6 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/team" element={<Teams />}></Route>
       </Routes>
-
       <Footer />
     </>
   );
