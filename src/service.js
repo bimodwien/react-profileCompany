@@ -5,7 +5,7 @@ const services = [
     description:
       "Transform your space with our expert interior design services. From concept development to final execution, our team of talented designers will work closely with you to bring your vision to life. Whether you're renovating your home or revamping your office, we'll create a customized design plan that reflects your style and personality.",
     photo:
-      "https://images.pexels.com/photos/1570404/pexels-photo-1570404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
   {
     id: 2,
