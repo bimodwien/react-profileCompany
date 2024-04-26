@@ -1,6 +1,7 @@
 import React from "react";
 import office2 from "../assets/office2.jpg";
 import CardService from "../components/card-service";
+import Testimonial from "../components/testimonial";
 
 const Service = () => {
   return (
@@ -28,6 +29,7 @@ const Service = () => {
         </div>
         <CardService />
       </section>
+      <Testimonial />
 
       <section className="px-4 lg:px-10">
         <div>
@@ -40,9 +42,10 @@ const Service = () => {
             more and schedule a consultation with our team of experts.
           </div>
         </div>
-
         <div className="flex justify-center align-center pt-3 pb-10">
-          <button className="bg-[#9D9D9D] px-10 py-3 rounded-sm font-medium text-xl hover:bg-gray-700 hover:border-white ">Contact Us</button>
+          <button className="bg-[#9D9D9D] px-10 py-3 rounded-sm font-medium text-xl hover:bg-gray-700 hover:border-white ">
+            Contact Us
+          </button>
         </div>
       </section>
     </>

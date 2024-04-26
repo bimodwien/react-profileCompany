@@ -16,14 +16,14 @@ const interiorDesignTeam = [
   },
   {
     id: 2,
-    name: "Emily Johnson",
+    name: "Norah Johnson",
     position: "Senior Interior Designer",
     contactInformation: {
-      email: "emily@example.com",
+      email: "norah@example.com",
       phone: "+1234567891",
     },
     description:
-      "Emily is our senior interior designer with a passion for creating functional and aesthetically pleasing spaces. With a background in architecture, she specializes in bringing architectural elements into interior design.",
+      "Norah is our senior interior designer with a passion for creating functional and aesthetically pleasing spaces. With a background in architecture, she specializes in bringing architectural elements into interior design.",
     experience: "10 years",
     expertise: [
       "Architectural Integration",
