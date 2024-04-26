@@ -2,25 +2,18 @@ import React from "react";
 import ars1 from "../assets/banner.jpg";
 import rec1 from "../assets/bw_interior1.jpg";
 import rec2 from "../assets/interior2.jpg";
+import Heroes from "../components/heroes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Testimonial from "../components/testimonial";
+import services from "../service";
 
 const Landing = () => {
   return (
     <>
       <section>
         <div className="">
-          <div className="relative flex justify-center items-center h-full w-full">
-            <img
-              src={ars1}
-              alt="arsitek gedung"
-              className="object-cover h-screen w-full"
-            />
-            <div className="absolute font-semibold text-xl italic md:text-5xl lg:font-bold lg:text-8xl text-[#DEDEDE]">
-              Harmony Interior
-            </div>
-          </div>
+          <Heroes imgData={ars1} imgBanner={"Harmony Interior"} />
           <div className="text-base leading-4 px-4 pt-20 tracking-[1.5px] text-gray-500 uppercase lg:px-10">
             Harmony Interior
           </div>
@@ -82,6 +75,35 @@ const Landing = () => {
               className="w-[400px] h-[570px] lg:w-[506px] lg:h-[763px]"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="px-4 lg:px-10">
+        <div className="flex flex-row gap-5 items-center uppercase text-lg font-semibold w-auto text-[#DEDEDE] leading-5 tracking-[0.5px]">
+          <FontAwesomeIcon icon={faArrowDown} /> explore our product and
+          services
+        </div>
+        <div className="text-base text-gray-500 uppercase leading-4 tracking-[1.5px] pt-20 pb-10">
+          Products and Services
+        </div>
+        <div className="lg:flex gap-5">
+          {services.map((service) => {
+            return (
+              <div
+                key={service.id}
+                className="py-10 relative flex justify-center items-center"
+              >
+                <img
+                  src={service.photo}
+                  className="w-[400px] h-[570px] lg:w-auto lg:h-auto"
+                  alt=""
+                />
+                <div className="absolute font-semibold text-xl italic text-[#202020]">
+                  {service.title}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

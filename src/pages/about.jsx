@@ -1,4 +1,5 @@
 import React from "react";
+import Heroes from "../components/heroes.jsx";
 import office_1 from "../assets/office1.jpg";
 import ourJourney1 from "../assets/calendar.jpg";
 import historic from "../assets/historic1.jpg";
@@ -9,18 +10,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <>
-      <section>
-        <div className="relative flex justify-center items-center h-full w-full">
-          <img
-            src={office_1}
-            alt="office 1"
-            className="object-cover h-screen w-full"
-          />
-          <div className="absolute font-semibold text-xl italic md:text-5xl lg:font-bold lg:text-8xl text-[#DEDEDE]">
-            About Us
-          </div>
-        </div>
-      </section>
+      <Heroes imgData={office_1} imgBanner={"About Us"} />
 
       <section className="px-4 lg:px-10">
         <div className="pt-16 flex gap-5 items-center uppercase text-lg font-semibold w-auto text-[#DEDEDE] leading-5 tracking-[0.5px]">

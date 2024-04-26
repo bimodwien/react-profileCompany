@@ -1,4 +1,5 @@
 import React from "react";
+import Heroes from "../components/heroes.jsx";
 import personal from "../personel.js";
 import teammate from "../assets/team-photo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,18 +9,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 const Teams = () => {
   return (
     <>
-      <section>
-        <div className="relative flex justify-center items-center">
-          <img
-            src={teammate}
-            alt=""
-            className="object-cover lg:h-screen lg:w-full"
-          />
-          <div className="absolute font-semibold text-xl italic md:text-5xl lg:font-bold lg:text-8xl text-[#DEDEDE] ">
-            Meet Our Team
-          </div>
-        </div>
-      </section>
+      <Heroes imgData={teammate} imgBanner={"Meet Our Team"} />
 
       <section className="px-4 lg:px-10">
         <div className="text-base text-gray-500 uppercase leading-4 tracking-[1.5px] pt-20">
